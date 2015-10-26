@@ -10,7 +10,8 @@ set(MAINCLIENTS
     EyeTracker
     Location2D
     Direction
-    Locomotion)
+    Locomotion
+    Skeleton)
 # These are "extra"
 set(CLIENTS
     MinimalInit
