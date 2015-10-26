@@ -16,6 +16,7 @@ set(API
     "${HEADER_LOCATION}/PluginKitC.h"
     "${HEADER_LOCATION}/PluginRegistration.h"
     "${HEADER_LOCATION}/PluginRegistrationC.h"
+    "${HEADER_LOCATION}/SkeletonInterfaceC.h"
     "${HEADER_LOCATION}/TrackerInterfaceC.h")
 
 set(SOURCE
@@ -29,6 +30,7 @@ set(SOURCE
     Location2DInterfaceC.cpp
     LocomotionInterfaceC.cpp
     PluginRegistrationC.cpp
+    SkeletonInterfaceC.cpp
     TrackerInterfaceC.cpp)
 
 osvr_add_library()
