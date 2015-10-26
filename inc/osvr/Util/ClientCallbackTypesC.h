@@ -206,6 +206,27 @@ OSVR_DEFINE_CLIENT_CALLBACK_TYPE(NaviVelocity);
 /** @brief C function type for a callback for NavigationPosition */
 OSVR_DEFINE_CLIENT_CALLBACK_TYPE(NaviPosition);
 
+/** @brief C function type for a callback for SkeletonJoint */
+OSVR_DEFINE_CLIENT_CALLBACK_TYPE(SkeletonJoint);
+
+/** @brief C function type for a callback for SkeletonTrimmed */
+OSVR_DEFINE_CLIENT_CALLBACK_TYPE(SkeletonTrimmed);
+
+/** @brief C function type for a callback for SkeletonWhole */
+OSVR_DEFINE_CLIENT_CALLBACK_TYPE(SkeletonWhole);
+
+/** @brief C function type for a callback for SkeletonHand */
+OSVR_DEFINE_CLIENT_CALLBACK_TYPE(SkeletonHand);
+
+/** @brief C function type for a callback for SkeletonArm */
+OSVR_DEFINE_CLIENT_CALLBACK_TYPE(SkeletonArm);
+
+/** @brief C function type for a callback for SkeletonFoot */
+OSVR_DEFINE_CLIENT_CALLBACK_TYPE(SkeletonFoot);
+
+/** @brief C function type for a callback for SkeletonLeg */
+OSVR_DEFINE_CLIENT_CALLBACK_TYPE(SkeletonLeg);
+
 #undef OSVR_DEFINE_CALLBACK
 /** @} */
 OSVR_EXTERN_C_END
