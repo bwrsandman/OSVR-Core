@@ -81,6 +81,13 @@ namespace common {
         OSVR_REPORT_TRAITS(EyeTrackerBlink)
         OSVR_REPORT_TRAITS(NaviVelocity)
         OSVR_REPORT_TRAITS(NaviPosition)
+        OSVR_REPORT_TRAITS(SkeletonJoint)
+        OSVR_REPORT_TRAITS(SkeletonWhole)
+        OSVR_REPORT_TRAITS(SkeletonTrimmed)
+        OSVR_REPORT_TRAITS(SkeletonHand)
+        OSVR_REPORT_TRAITS(SkeletonArm)
+        OSVR_REPORT_TRAITS(SkeletonFoot)
+        OSVR_REPORT_TRAITS(SkeletonLeg)
 #undef OSVR_REPORT_TRAITS
     } // namespace traits
 
