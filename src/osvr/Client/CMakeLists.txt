@@ -45,6 +45,8 @@ set(SOURCE
     RemoteHandlerFactory.cpp
     RouterPredicates.h
     RouterTransforms.h
+    SkeletonRemoteFactory.cpp
+    SkeletonRemoteFactory.h
     TrackerRemoteFactory.cpp
     TrackerRemoteFactory.h
     Viewer.cpp
