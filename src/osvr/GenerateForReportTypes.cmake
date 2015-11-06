@@ -12,13 +12,7 @@ set(REPORT_TYPES
     EyeTrackerBlink
     NaviVelocity
     NaviPosition
-    SkeletonJoint
-    SkeletonWhole
-    SkeletonTrimmed
-    SkeletonHand
-    SkeletonArm
-    SkeletonFoot
-    SkeletonLeg)
+    Skeleton)
 
 # Generate a file using a template with the placeholder @BODY@, as well as a
 # repeated template with the placeholder @TYPE@ - repeated once for each report type.
